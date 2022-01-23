@@ -1,0 +1,116 @@
+.modal-login {
+    color: #636363;
+    width: 350px;
+}
+.modal-login .modal-content {
+    padding: 20px;
+    border-radius: 3px;
+    border: none;
+}
+.modal-login .modal-header {
+    border-bottom: none;
+    position: relative;
+    justify-content: center;
+}
+.modal-login h4 {
+    text-align: center;
+    font-size: 20px;
+    margin: 15px 0 -15px;
+}
+.modal-login .form-control:focus {
+    border-color: #337ab7;
+}
+.modal-login .form-control, .modal-login .btn {
+    min-height: 40px;
+    border-radius: 3px;
+}
+.modal-login .close {
+    position: absolute;
+    top: -13px;
+    right: -10px;
+    font-size: 30px;
+}
+.modal-login .modal-footer {
+    background: #ecf0f1;
+    border-color: #dee4e7;
+    text-align: center;
+    justify-content: center;
+    margin: 0 -20px -20px;
+    border-radius: 3px;
+    font-size: 13px;
+}
+.modal-login .modal-footer a {
+    color: #999;
+}
+.modal-login .avatar {
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: -60px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    z-index: 9;
+    background: #337ab7;
+    padding: 15px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+}
+.modal-login .avatar img {
+    width: 100%;
+}
+.modal-login.modal-dialog {
+    margin-top: 70px;
+}
+.modal-login .btn {
+    color: #fff;
+    border-radius: 4px;
+    background: #337ab7;
+    text-decoration: none;
+    transition: all 0.4s;
+    line-height: normal;
+    border: none;
+}
+.modal-login .btn:hover, .modal-login .btn:focus {
+    background: #337ab7;
+    outline: none;
+}
+.modal-footer{
+    padding: 5px;
+}
+.btn-group-lg > .btn, .btn-lg {
+    padding: 5px 16px;
+}
+/*Login & Registration*/
+.modal-header .close {
+    font-size: 30px;
+}
+.nav-tabs {
+    margin-bottom: 15px;
+}
+.sign-with {
+    margin-top: 30px;
+    padding: 20px 10px;
+}
+div#OR {
+    height: 30px;
+    width: 30px;
+    border: 1px solid #C2C2C2;
+    border-radius: 50%;
+    font-weight: bold;
+    line-height: 28px;
+    text-align: center;
+    font-size: 12px;
+    float: right;
+    position: absolute;
+    right: -16px;
+    top: 40%;
+    z-index: 1;
+    background: #DFDFDF;
+}
+.modal-dialog{
+    margin: 70px auto;
+}
+.modal-header {
+    padding: 5px 15px;
+}
